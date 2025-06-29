@@ -1,0 +1,152 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: #e0f7fa; /* Light teal background */
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+}
+
+/* Container styling */
+#root {
+  width: 95%;
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+
+/* Headings */
+h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+/* Buttons */
+button {
+  padding: 8px 16px;
+  background-color: #00796b;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 4px;
+  transition: background-color 0.2s ease;
+}
+
+button:hover {
+  background-color: #004d40;
+}
+
+/* Table styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  margin-top: 1rem;
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: center;
+  vertical-align: middle;
+}
+
+th {
+  background-color: #b2dfdb;
+}
+
+/* Responsive table for mobile */
+@media (max-width: 600px) {
+  table, thead, tbody, th, td, tr {
+    display: block;
+    width: 100%;
+  }
+
+  thead {
+    display: none;
+  }
+
+  tr {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+  }
+
+  td {
+    border: none;
+    position: relative;
+    padding: 0.5rem 0.5rem 0.5rem 50%;
+    text-align: left;
+    word-break: break-word;
+  }
+
+  td::before {
+    position: absolute;
+    top: 0.5rem;
+    left: 0.5rem;
+    width: 45%;
+    white-space: nowrap;
+    font-weight: bold;
+    text-align: left;
+  }
+
+  td:nth-of-type(1)::before { content: "#"; }
+  td:nth-of-type(2)::before { content: "Title"; }
+  td:nth-of-type(3)::before { content: "Description"; }
+  td:nth-of-type(4)::before { content: "Status"; }
+  td:nth-of-type(5)::before { content: "Actions"; }
+}
+
+/* Form styling */
+form {
+  background: white;
+  padding: 1rem;
+  border-radius: 8px;
+  max-width: 500px;
+  margin: 1rem auto;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+form div {
+  margin-bottom: 1rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.3rem;
+}
+
+input[type="text"], textarea, select {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input[type="text"]:focus, textarea:focus, select:focus {
+  outline: none;
+  border-color: #00796b;
+  box-shadow: 0 0 5px rgba(0,121,107,0.5);
+}
+
+.add-task-container {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.delete-button {
+  background-color: #c62828; /* deep red */
+}
+
+.delete-button:hover {
+  background-color: #8e0000; /* darker red on hover */
+}
