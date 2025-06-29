@@ -1,4 +1,4 @@
-Task Management App
+**Task Management App**
 
 A fully responsive Task Management App built using React, Vite, and CSS, allowing you to Create, Read, Update, and Delete (CRUD) tasks with a clean, intuitive interface.
 
@@ -113,7 +113,7 @@ Developed by [Karthiga P](https://github.com/KarthigaP20)
 
 ## Live Demo
 
-Visit the live site: [Task Manager Website](https://karthigap20.github.io/Apple-clone/)
+Visit the live site: [Task Manager Website](https://taskmanager-karthiga.vercel.app/)
 
 Feedback
 Thank you for checking out this project.
