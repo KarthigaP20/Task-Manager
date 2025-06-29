@@ -3,6 +3,7 @@
 A fully responsive Task Management App built using React, Vite, and CSS, allowing you to Create, Read, Update, and Delete (CRUD) tasks with a clean, intuitive interface.
 
 Features
+
 🔹 Create, Read, Update, Delete (CRUD)
 Add new tasks, view tasks in a table, edit existing tasks, and delete tasks easily.
 
@@ -113,7 +114,7 @@ Developed by [Karthiga P](https://github.com/KarthigaP20)
 
 ## Live Demo
 
-Visit the live site: [Task Manager Website](https://taskmanager-karthiga.vercel.app/)
+Visit the live site: [Task Management Website](https://taskmanager-karthiga.vercel.app/)
 
 Feedback
 Thank you for checking out this project.
